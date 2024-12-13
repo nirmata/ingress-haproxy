@@ -285,7 +285,7 @@ metadata:
   name: haproxy-ingress
   namespace: ingress-haproxy
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - name: port-1
     port: 8080
